@@ -1,4 +1,3 @@
-Common problems C#
 Common problems and its solution on c# Based on Steve Yegge's post 7 code problems 
 https://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions
 
