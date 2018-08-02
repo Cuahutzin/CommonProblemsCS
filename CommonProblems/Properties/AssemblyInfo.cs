@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("CommonProblems")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("BOSCH")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("CommonProblems")]
-[assembly: AssemblyCopyright("Copyright © BOSCH 2018")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
