@@ -53,7 +53,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Excercise1.cs" />
+    <Compile Include="Excercise01\ReverseStringTests.cs" />
+    <Compile Include="Excercise02\FibonacciTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,10 +1,10 @@
 ﻿using Core.Excercise1.Extensions;
 using NUnit.Framework;
 
-namespace Core.Tests
+namespace Core.Tests.Exercise01
 {
     /// <summary>
-    /// This is a class that
+    /// This is an unit test class for Excersice 01 
     /// </summary>
     [TestFixture]
     public class Excercise01
