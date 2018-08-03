@@ -2,7 +2,6 @@
 using System.Diagnostics;
 using Core.Excercise1.Extensions;
 using System.Linq;
-using Core.Excercise02;
 
 namespace CommonProblems
 {
@@ -16,7 +15,7 @@ namespace CommonProblems
         {
             #region Excercise 1 Reverse string and solution comparison
 
-            var maxLoop = 10000;
+            var maxLoop = 1;
 
             var a = "anitalavalatina";
             //Extension method ReverseStringBuilder
@@ -49,32 +48,24 @@ namespace CommonProblems
 
             //Built-in linq
             var ex1Test4 = new Stopwatch();
-            ex1Test4.Start();
             for (int i = 0; i < maxLoop; ++i)
             {
-                a.Reverse().ToString();
+                ex1Test4.Start();
             }
+            a.Reverse();
             ex1Test4.Stop();
 
-            Console.WriteLine("EXCERCISE 1 Reverse string method comparison  TESTS {0} executions", maxLoop);
-            Console.WriteLine("String:{0}, Reverse:{1}", a, a.Reverse().ToString());
+            Console.WriteLine("EXCERCISE 1 TESTS");
 
             Console.WriteLine("Extension method ReverseStringBuilder: {0}", ex1Test1.Elapsed.TotalMilliseconds.ToString("G0"));
             Console.WriteLine("Extension method ReverseStringArray: {0}", ex1Test2.Elapsed.TotalMilliseconds.ToString("G0"));
             Console.WriteLine("Extension method ReverseStringDirectArray: {0}", ex1Test3.Elapsed.TotalMilliseconds.ToString("G0"));
             Console.WriteLine("Linq Build-in: {0}", ex1Test4.Elapsed.TotalMilliseconds.ToString("G0"));
-            Console.WriteLine();
-            #endregion
 
-            #region Exercise 2 Fibonacci
-            Console.WriteLine("EXCERCISE 2 Fibonacci functionality");
-            Fibonacci fibo = new Fibonacci();
-            long fTest1 = 4;
-            long fTest2 = 9;
-            Console.WriteLine("f({0}) = {1}",fTest1, fibo.GetFibonacci(fTest1));
-            Console.WriteLine("f({0}) = {1}", fTest2, fibo.GetFibonacci(fTest2));
             Console.ReadLine();
             #endregion
+
+
 
         }
         
@@ -82,4 +73,3 @@ namespace CommonProblems
         
     }
 }
-
