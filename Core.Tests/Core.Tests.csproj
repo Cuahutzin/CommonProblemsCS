@@ -53,14 +53,15 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Excercise1.cs" />
+    <Compile Include="Excercise01\ReverseStringTests.cs" />
+    <Compile Include="Excercise02\FibonacciTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\Core.csproj">
+    <ProjectReference Include="..\Core\Core.csproj">
       <Project>{41965E02-8DE7-4640-9AFB-50ABACEF97D4}</Project>
       <Name>Core</Name>
     </ProjectReference>
