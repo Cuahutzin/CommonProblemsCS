@@ -55,6 +55,8 @@
   <ItemGroup>
     <Compile Include="Excercise01\ReverseStringTests.cs" />
     <Compile Include="Excercise02\FibonacciTests.cs" />
+    <Compile Include="Excercise03\MultiplicationTableGeneratorUnitTests.cs" />
+    <Compile Include="Excercise03\MultiplicationTableResultComparer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
