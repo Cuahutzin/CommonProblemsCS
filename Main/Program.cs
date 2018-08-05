@@ -1,5 +1,6 @@
 ﻿using Core.Exercise01.Extensions;
 using Core.Exercise02;
+using Core.Exercise03;
 using System;
 using System.Diagnostics;
 using System.Linq;
@@ -73,13 +74,41 @@ namespace CommonProblems
             long fTest2 = 9;
             Console.WriteLine("f({0}) = {1}",fTest1, fibo.GetFibonacci(fTest1));
             Console.WriteLine("f({0}) = {1}", fTest2, fibo.GetFibonacci(fTest2));
-            Console.ReadLine();
             #endregion
 
-        }
-        
+            #region Exercise 3
+            //The common way
+            Console.WriteLine("EXCERCISE 3 table multiplication");
+            Console.WriteLine("--------The common way -------------");
+            var TableNumber = 12;
+            var MaxTimes = 12;
+            var ex3Test1 = new Stopwatch();
+            ex3Test1.Start();
+            for (int times = 1; times <= MaxTimes; ++times)
+            {
+                Console.WriteLine("{0} X {1} = {2}", TableNumber, times, TableNumber * times);
+            }
+            ex3Test1.Stop();
+            Console.WriteLine();
 
-        
+            Console.WriteLine("-----------Kind of Dynamic way using interfaces and separation of concerns---------");
+            var ex3Test2 = new Stopwatch();
+            ex3Test2.Start();
+            var generator = new MultiplicationTableGenerator();
+            var rawTable = generator.GetTable(TableNumber, MaxTimes);
+            var printer = new ConsoleStream();
+            printer.Print(rawTable);
+            ex3Test2.Stop();
+
+            Console.WriteLine("Ex1: {0}", ex3Test1.Elapsed.TotalMilliseconds.ToString("G0"));
+            Console.WriteLine("Ex2: {0}", ex3Test2.Elapsed.TotalMilliseconds.ToString("G0"));
+
+            Console.ReadLine();
+            #endregion
+        }
+
+
+
     }
 }
 

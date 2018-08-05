@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="Exercise01\Extensions\CommonStringExtensionscs.cs" />
     <Compile Include="Exercise02\Fibonacci.cs" />
+    <Compile Include="Exercise03\ConsoleStream.cs" />
+    <Compile Include="Exercise03\IPrintMultiplicationTableResult.cs" />
     <Compile Include="Exercise03\MultiplicationTable.cs" />
     <Compile Include="Exercise03\MultiplicationTableResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
