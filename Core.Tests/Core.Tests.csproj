@@ -53,10 +53,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Excercise01\ReverseStringTests.cs" />
-    <Compile Include="Excercise02\FibonacciTests.cs" />
-    <Compile Include="Excercise03\MultiplicationTableGeneratorUnitTests.cs" />
-    <Compile Include="Excercise03\MultiplicationTableResultComparer.cs" />
+    <Compile Include="Exercise01\ReverseStringTests.cs" />
+    <Compile Include="Exercise02\FibonacciTests.cs" />
+    <Compile Include="Exercise03\MultiplicationTableGeneratorUnitTests.cs" />
+    <Compile Include="Exercise03\MultiplicationTableResultComparer.cs" />
+    <Compile Include="Exercise03\MultiplicationTableResultEnumerableComparer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace Core.Excercise03
+namespace Core.Exercise03
 {
     public class MultiplicationTableGenerator
     {
+        /// <summary>
+        /// Get Multiplication table providing table numbet and the multiplication limit
+        /// </summary>
+        /// <param name="tableNumber"></param>
+        /// <param name="MultiplicationLimit"></param>
+        /// <returns></returns>
         public List<MultiplicationTableResult> GetTable(int tableNumber, int MultiplicationLimit)
         {
             List<MultiplicationTableResult> tableResults = new List<MultiplicationTableResult>();
@@ -21,6 +23,5 @@ namespace Core.Excercise03
             }
             return tableResults;
         }
-
     }
 }

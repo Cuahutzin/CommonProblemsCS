@@ -40,10 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Excercise01\Extensions\CommonStringExtensionscs.cs" />
-    <Compile Include="Excercise02\Fibonacci.cs" />
-    <Compile Include="Excercise03\MultiplicationTable.cs" />
-    <Compile Include="Excercise03\MultiplicationTableResult.cs" />
+    <Compile Include="Exercise01\Extensions\CommonStringExtensionscs.cs" />
+    <Compile Include="Exercise02\Fibonacci.cs" />
+    <Compile Include="Exercise03\MultiplicationTable.cs" />
+    <Compile Include="Exercise03\MultiplicationTableResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

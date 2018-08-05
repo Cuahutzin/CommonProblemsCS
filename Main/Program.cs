@@ -1,8 +1,8 @@
-﻿using System;
+﻿using Core.Exercise01.Extensions;
+using Core.Exercise02;
+using System;
 using System.Diagnostics;
-using Core.Excercise1.Extensions;
 using System.Linq;
-using Core.Excercise02;
 
 namespace CommonProblems
 {
@@ -14,7 +14,7 @@ namespace CommonProblems
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            #region Excercise 1 Reverse string and solution comparison
+            #region Exercise 1 Reverse string and solution comparison
 
             var maxLoop = 10000;
 

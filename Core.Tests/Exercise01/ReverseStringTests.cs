@@ -1,4 +1,4 @@
-﻿using Core.Excercise1.Extensions;
+﻿using Core.Exercise01.Extensions;
 using NUnit.Framework;
 
 namespace Core.Tests.Exercise01
@@ -7,7 +7,7 @@ namespace Core.Tests.Exercise01
     /// This is an unit test class for Excersice 01 
     /// </summary>
     [TestFixture]
-    public class Excercise01
+    public class Exercise01
     {
         //[SetUp]
         //public void SetUp()

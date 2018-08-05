@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Excercise02
+namespace Core.Exercise02
 {
     public class Fibonacci
     {
