@@ -1,17 +1,17 @@
-﻿using Core.Excercise03;
+﻿using Core.Exercise03;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Tests.Excercise03
+namespace Core.Tests.Exercise03
 {
     public class MultiplicationTableResultComparer:IEqualityComparer<MultiplicationTableResult>
     {
         public bool Equals(MultiplicationTableResult x, MultiplicationTableResult y)
         {
-            if (x == null && y == null)
+            if ((x == null && y == null) || ReferenceEquals(x,y))
             {
                 return true;
             }

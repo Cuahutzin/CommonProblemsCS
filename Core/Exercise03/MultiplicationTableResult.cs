@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Excercise03
+namespace Core.Exercise03
 {
     public class MultiplicationTableResult
     {

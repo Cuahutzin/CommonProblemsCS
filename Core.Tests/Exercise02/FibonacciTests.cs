@@ -1,5 +1,5 @@
 ﻿using NUnit.Framework;
-using Core.Excercise02;
+using Core.Exercise02;
 
 namespace Core.Tests.Exercise02
 {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Excercise1.Extensions
+namespace Core.Exercise01.Extensions
 {
     public static class CommonStringExtensionscs
     {
