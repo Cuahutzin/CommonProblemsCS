@@ -16,4 +16,17 @@ The 'Core' project includes one main folder per exercise to better organization,
 
 NUnit and NUnit test adapter is included on the test project just for fun and practice. In addition to the solution I will include more than one solution if is necessary for check what is the best performance with single of multiple solutions the main project is just for run the comparision  and check it on console.
 
+
+
+
+
+
+
+
+
+
+
+
+new change from client
+
 Merge testing on dev
