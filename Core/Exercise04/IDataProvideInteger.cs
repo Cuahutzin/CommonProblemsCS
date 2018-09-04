@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Core.Exercise04
 {
     public interface IDataProvideInteger
     {
-        Int64[] GetIntegers();
+        List<Int64> GetIntegers();
     }
 }
