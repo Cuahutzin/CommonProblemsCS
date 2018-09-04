@@ -76,7 +76,7 @@ namespace CommonProblems
             Console.WriteLine("f({0}) = {1}", fTest2, fibo.GetFibonacci(fTest2));
             #endregion
 
-            #region Exercise 3
+            #region Exercise 3 Multiplication table
             //The common way
             Console.WriteLine("EXCERCISE 3 table multiplication");
             Console.WriteLine("--------The common way -------------");
@@ -104,6 +104,13 @@ namespace CommonProblems
             Console.WriteLine("Ex2: {0}", ex3Test2.Elapsed.TotalMilliseconds.ToString("G0"));
 
             Console.ReadLine();
+            #endregion
+
+            #region Exercise 4 Sums up integers from a text file
+            
+            //var array = 
+
+
             #endregion
         }
 
