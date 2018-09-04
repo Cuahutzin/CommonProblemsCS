@@ -58,6 +58,7 @@
     <Compile Include="Exercise03\MultiplicationTableGeneratorUnitTests.cs" />
     <Compile Include="Exercise03\MultiplicationTableResultComparer.cs" />
     <Compile Include="Exercise03\MultiplicationTableResultEnumerableComparer.cs" />
+    <Compile Include="Exercise04\DataProviderTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -68,6 +69,14 @@
       <Project>{41965E02-8DE7-4640-9AFB-50ABACEF97D4}</Project>
       <Name>Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Exercise04\TestFiles\DataProviderTestFile_ERR_MultipleLinesMultipleNumbers.txt" />
+    <Content Include="Exercise04\TestFiles\DataProviderTestFile_OK_MultipleLinesBarelyOneNumberEach.txt" />
+    <Content Include="Exercise04\TestFiles\DataProviderTestFile_OK_MultipleLinesOneNumberEach.txt" />
+    <Content Include="Exercise04\TestFiles\DataProviderTestFile_ERR_SingleLineMultipleNumbers.txt" />
+    <Content Include="Exercise04\TestFiles\DataProviderTestFile_OK_EmptyFile.txt" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

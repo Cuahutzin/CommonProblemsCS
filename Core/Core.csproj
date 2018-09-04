@@ -46,6 +46,10 @@
     <Compile Include="Exercise03\IPrintMultiplicationTableResult.cs" />
     <Compile Include="Exercise03\MultiplicationTable.cs" />
     <Compile Include="Exercise03\MultiplicationTableResult.cs" />
+    <Compile Include="Exercise04\DataProvider.cs" />
+    <Compile Include="Exercise04\IDataProvideInteger.cs" />
+    <Compile Include="Exercise04\IMathOperationSumIntegers.cs" />
+    <Compile Include="Exercise04\MathOperation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
